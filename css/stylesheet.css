@@ -1,0 +1,102 @@
+.delivery{
+    position: relative;
+}
+
+.driver{
+    position: absolute;
+    border-radius: 50%;
+    width:250px;
+    height:250px;
+    object-fit: cover;
+    top: 10px;
+    left: 250px;
+    z-index: 2;
+    
+}
+
+.info{
+    position: absolute;
+    top: 70px;
+    left: 450px;
+    width: 200px;
+    height: 200px;
+    background-color: #cfcaca;
+    padding: 20px;
+    padding-left: 70px;
+    z-index: 1;
+}
+
+.red-circle{
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    top: 0px;
+    left: 660px;
+    z-index: 0;
+}
+
+.burger{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 200px;
+    left: 230px;
+    z-index: 3;
+
+
+}
+
+.striped-circle{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: repeating-linear-gradient(45deg, #d82525, #db1d1d 10px, #ffffff 10px, #ffffff 20px);
+    top: 270px;
+    left: 340px;
+    z-index: 4;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+}
+
+body{
+    padding-bottom: 160px; /* Adjust this value based on the height of your footer */
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #555;
+    color: rgb(213, 33, 33);
+}
+
+nav{
+    position:sticky;
+    top:0;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(225, 20, 20);
+}
